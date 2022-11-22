@@ -136,20 +136,20 @@ const Serviceslider = () => {
                     //   clickable: true,
                     // }}
                     loop={true}
-                    navigation={true}
+                    // navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
                     {servicedata3.map((sd3) => (
                         <SwiperSlide key={sd3.id}>
-                            <div className="flex flex-col gap-5 justify-around md:flex-row  sm:mx-14 lg:mx-20 xl:mx-24 bg-gray-200 ">
+                            <div className="flex flex-col gap-3 justify-around md:flex-row  sm:mx-14 lg:mx-20 xl:mx-24 ">
 
                                 <div className="flex">
 
 
-                                    <div key={sd3.id} className=" mx-2 my-3 services h-46 w-36 flex flex-col border-2 bg-white">
+                                    <div key={sd3.id} className=" mx-2 my-3 services h-48 w-36 flex flex-col border-2 bg-white">
                                         <img className='w-32 h-32 py-2 px-2' src={sd3.image} alt="" />
-                                        <span className='whitespace-pre-wrap px-2 py-2 h-12'>{sd3.desc}</span>
+                                        <span className='whitespace-pre-wrap px-2 py-2 '>{sd3.desc}</span>
                                     </div>
 
 

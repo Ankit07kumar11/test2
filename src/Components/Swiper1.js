@@ -39,7 +39,7 @@ const  Swiper1=()=> {
           clickable: true,
         }}
         loop={true}
-        navigation={true}
+        // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
